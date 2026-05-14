@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="uFLxkKGRpFQqejylt0wi">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Output" vertex="1">
+          <mxGeometry height="153" width="629" x="404.5" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-2" parent="VTsiiaqM3SIWN8MIdSit-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="AI-generated&#xa;study notes" vertex="1">
+          <mxGeometry height="54" width="249" x="43" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-3" parent="VTsiiaqM3SIWN8MIdSit-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Interactive syllabus&#xa;roadmap" vertex="1">
+          <mxGeometry height="78" width="260" x="342" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#4A90D9;strokeColor=#2c5f8a;fontColor=#fff;fontFamily=Times New Roman;fontSize=20;" value="Processing" vertex="1">
+          <mxGeometry height="147" width="858" x="290" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-5" parent="VTsiiaqM3SIWN8MIdSit-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="PDF text&#xa;extraction" vertex="1">
+          <mxGeometry height="80" width="210" x="43" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-6" parent="VTsiiaqM3SIWN8MIdSit-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="AI Core&#xa;topic parsing" vertex="1">
+          <mxGeometry height="80" width="219" x="303" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-7" parent="VTsiiaqM3SIWN8MIdSit-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Decompose exam objectives&#xa;into JSON hierarchy" vertex="1">
+          <mxGeometry height="84.71186440677967" width="260" x="571" y="38.20338983050848" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Input" vertex="1">
+          <mxGeometry height="153" width="619" x="409.5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-9" parent="VTsiiaqM3SIWN8MIdSit-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="User-uploaded&#xa;syllabus PDFs" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-10" parent="VTsiiaqM3SIWN8MIdSit-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Selected study&#xa;subjects" vertex="1">
+          <mxGeometry height="54" width="239" x="353" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-11" edge="1" parent="1" source="VTsiiaqM3SIWN8MIdSit-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="VTsiiaqM3SIWN8MIdSit-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VTsiiaqM3SIWN8MIdSit-12" edge="1" parent="1" source="VTsiiaqM3SIWN8MIdSit-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="VTsiiaqM3SIWN8MIdSit-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

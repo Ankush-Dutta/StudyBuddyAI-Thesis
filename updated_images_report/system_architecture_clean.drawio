@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="AUQNXSnRvoFaucN39HX8" name="Page-1">
+    <mxGraphModel dx="2828" dy="2686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="client_bg" parent="1" style="swimlane;fontStyle=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=30;rounded=1;fontFamily=Times New Roman;" value="🖥️ Client Layer" vertex="1">
+          <mxGeometry height="165" width="700" x="500" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="fe" parent="client_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;fontStyle=1;fontFamily=Times New Roman;" value="React Frontend  ·  Cloudflare Pages&#xa;ai-study-planner-bo3.pages.dev" vertex="1">
+          <mxGeometry height="80" width="550" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="backend_bg" parent="1" style="swimlane;fontStyle=1;fontSize=24;fillColor=#fbe9e7;strokeColor=#b85450;startSize=30;rounded=1;fontFamily=Times New Roman;" value="⚙️ Backend — FastAPI (Uvicorn) · Render.com" vertex="1">
+          <mxGeometry height="630" width="1060" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cors" parent="backend_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=24;fontStyle=1;fontFamily=Times New Roman;" value="CORS Middleware" vertex="1">
+          <mxGeometry height="44" width="200" x="430" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="routers_bg" parent="backend_bg" style="swimlane;fontStyle=1;fontSize=24;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=28;rounded=1;fontFamily=Times New Roman;" value="API Routers" vertex="1">
+          <mxGeometry height="245" width="1020" x="20" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;fontFamily=Times New Roman;" value="/auth" vertex="1">
+          <mxGeometry height="115" width="88" x="12" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="/ai" vertex="1">
+          <mxGeometry height="115" width="88" x="110" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="/quiz" vertex="1">
+          <mxGeometry height="115" width="88" x="208" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="/smart-notes" vertex="1">
+          <mxGeometry height="115" width="88" x="306" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="/weak-topics" vertex="1">
+          <mxGeometry height="115" width="88" x="404" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="/syllabus" vertex="1">
+          <mxGeometry height="115" width="88" x="502" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r7" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;fontFamily=Times New Roman;" value="/announc-&lt;div&gt;-ements&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="88" x="600" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r8" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;fontFamily=Times New Roman;" value="/classroom" vertex="1">
+          <mxGeometry height="115" width="88" x="698" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r9" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;fontFamily=Times New Roman;" value="/assign-ments" vertex="1">
+          <mxGeometry height="115" width="88" x="796" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r10" parent="routers_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="/messaging&#xa;+ WebSocket" vertex="1">
+          <mxGeometry height="115" width="105" x="900" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="services_bg" parent="backend_bg" style="swimlane;fontStyle=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;startSize=28;rounded=1;fontFamily=Times New Roman;" value="Core Services" vertex="1">
+          <mxGeometry height="155" width="820" x="90" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_svc" parent="services_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;fontFamily=Times New Roman;" value="JWT Auth&#xa;+ Password Reset" vertex="1">
+          <mxGeometry height="100" width="180" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="orm" parent="services_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;fontFamily=Times New Roman;" value="SQLAlchemy ORM" vertex="1">
+          <mxGeometry height="100" width="180" x="215" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ws_svc" parent="services_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;fontFamily=Times New Roman;" value="WebSocket Manager&#xa;(Real-time Chat)" vertex="1">
+          <mxGeometry height="100" width="180" x="415" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="static_svc" parent="services_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;fontFamily=Times New Roman;" value="Static File Server&#xa;/uploads" vertex="1">
+          <mxGeometry height="100" width="180" x="615" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="backend_bg" source="cors" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=24;" target="routers_bg" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="backend_bg" source="routers_bg" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=24;" target="services_bg" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_bg" parent="1" style="swimlane;fontStyle=1;fontSize=24;fillColor=#e1d5e7;strokeColor=#9673a6;startSize=30;rounded=1;fontFamily=Times New Roman;" value=" AI Layer — OpenAI ChatGPT 4o" vertex="1">
+          <mxGeometry height="530" width="380" x="1790" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qg" parent="ai_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="Quiz Generator" vertex="1">
+          <mxGeometry height="65" width="300" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ng" parent="ai_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="Notes Generator" vertex="1">
+          <mxGeometry height="65" width="300" x="40" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="sp" parent="ai_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="Study Planner" vertex="1">
+          <mxGeometry height="65" width="300" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="syl" parent="ai_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="Syllabus Parser" vertex="1">
+          <mxGeometry height="65" width="300" x="40" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="wt" parent="ai_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Times New Roman;" value="Weak Topics Analyzer" vertex="1">
+          <mxGeometry height="65" width="300" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="db_bg" parent="1" style="swimlane;fontStyle=1;fontSize=24;fillColor=#f5f5f5;strokeColor=#666666;startSize=30;rounded=1;fontFamily=Times New Roman;" value="🗄️ Database" vertex="1">
+          <mxGeometry height="240" width="380" x="160" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="pg" parent="db_bg" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=24;fontStyle=1;fontFamily=Times New Roman;" value="PostgreSQL&#xa;(Neon / Supabase)" vertex="1">
+          <mxGeometry height="168" width="200" x="88" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ext_bg" parent="1" style="swimlane;fontStyle=1;fontSize=24;fillColor=#fff2cc;strokeColor=#d6b656;startSize=30;rounded=1;fontFamily=Times New Roman;" value="🌐 External Services" vertex="1">
+          <mxGeometry height="260" width="830" x="1050" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="smtp" parent="ext_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=24;fontFamily=Times New Roman;" value="📧 SMTP Email (Gmail / SendGrid)&#xa;Password Reset + Reminders" vertex="1">
+          <mxGeometry height="68" width="410" x="10" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cron" parent="ext_bg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;fontFamily=Times New Roman;" value="⏰ Vercel Cron Job&#xa;Assignment Reminders" vertex="1">
+          <mxGeometry height="68" width="255" x="495" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="fe" style="edgeStyle=orthogonalEdgeStyle;fontSize=24;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="backend_bg" value="HTTPS REST + WebSocket">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="orm" style="edgeStyle=orthogonalEdgeStyle;fontSize=24;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="db_bg" value="SQLAlchemy (psycopg2 SSL)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="348" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="routers_bg" style="edgeStyle=orthogonalEdgeStyle;fontSize=24;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ai_bg" value="AI Prompts&#xa;(Quiz · Notes · Study Plan · Syllabus · Weak Topics)">
+          <mxGeometry relative="1" x="0.0937" y="35" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1070" y="423" />
+              <mxPoint x="1115" y="423" />
+              <mxPoint x="1115" y="485" />
+            </Array>
+            <mxPoint x="1580" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="r10" style="edgeStyle=orthogonalEdgeStyle;fontSize=24;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="ws_svc" value="WebSocket">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="auth_svc" style="edgeStyle=orthogonalEdgeStyle;fontSize=24;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="smtp" value="Password reset OTP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="860" />
+              <mxPoint x="887" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="r8" style="fontSize=24;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;" target="ext_bg" value="Reminder emails">
+          <mxGeometry relative="1" x="0.8093" y="181" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="930" y="570" />
+              <mxPoint x="1010" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQX5tNmPlZ7wIgOuLLgH-1" edge="1" parent="1" source="r9" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=0;fontFamily=Times New Roman;fontSize=24;" target="ext_bg" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="730" />
+            </Array>
+            <mxPoint x="880" y="720" as="sourcePoint" />
+            <mxPoint x="930" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

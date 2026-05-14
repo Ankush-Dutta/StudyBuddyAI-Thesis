@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="RJX0FgZEx-Vo5I35yndK">
+    <mxGraphModel dx="837" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Output" vertex="1">
+          <mxGeometry height="153" width="828" x="883.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-2" parent="f0trvnSTxA0hx_IoKFyE-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Classroom&#xa;listings" vertex="1">
+          <mxGeometry height="54" width="197" x="43" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-3" parent="f0trvnSTxA0hx_IoKFyE-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Enrolment&#xa;records" vertex="1">
+          <mxGeometry height="54" width="201" x="290" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-4" parent="f0trvnSTxA0hx_IoKFyE-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Subject-specific&#xa;study structures" vertex="1">
+          <mxGeometry height="78" width="260" x="541" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#4A90D9;strokeColor=#2c5f8a;fontColor=#fff;fontFamily=Times New Roman;fontSize=20;" value="Processing" vertex="1">
+          <mxGeometry height="153" width="915" x="840" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-6" parent="f0trvnSTxA0hx_IoKFyE-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Teacher&#xa;authorisation" vertex="1">
+          <mxGeometry height="54" width="225" x="43" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-7" parent="f0trvnSTxA0hx_IoKFyE-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Student membership&#xa;management" vertex="1">
+          <mxGeometry height="78" width="260" x="318" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-8" parent="f0trvnSTxA0hx_IoKFyE-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Subject-filtered&#xa;view construction" vertex="1">
+          <mxGeometry height="78" width="260" x="628" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Input" vertex="1">
+          <mxGeometry height="153" width="640" x="977.5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-10" parent="f0trvnSTxA0hx_IoKFyE-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Classroom metadata&#xa;(name, subject)" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-11" parent="f0trvnSTxA0hx_IoKFyE-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Student enrolment&#xa;requests" vertex="1">
+          <mxGeometry height="78" width="260" x="353" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-12" edge="1" parent="1" source="f0trvnSTxA0hx_IoKFyE-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="f0trvnSTxA0hx_IoKFyE-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0trvnSTxA0hx_IoKFyE-13" edge="1" parent="1" source="f0trvnSTxA0hx_IoKFyE-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="f0trvnSTxA0hx_IoKFyE-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

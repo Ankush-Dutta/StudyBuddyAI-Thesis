@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="custom_layer_diagram" name="Notes-Quiz Layered Architecture">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L_Input" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1edfa;strokeColor=#6c8ebf;fontFamily=Times New Roman;fontSize=14;spacingTop=10;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Input&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="800" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="In1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Subject and topic &lt;br&gt;parameters&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="140" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="In2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Preferred notes type&lt;br&gt;(concise/conceptual/minimal)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="390" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="In3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Per-question student&lt;br&gt;answer responses&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="660" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Processing" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#4a86e8;strokeColor=#2e6da4;fontFamily=Times New Roman;fontSize=14;spacingTop=10;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Processing&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="800" x="100" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="P1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Route request to &lt;br&gt;AI Core generator&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="140" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="P2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Generate or retrieve notes&lt;br&gt;and quiz content via AI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="400" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="P3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Evaluate responses against&lt;br&gt;correct answer keys&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="660" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L_Output" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d9ead3;strokeColor=#93c47d;fontFamily=Times New Roman;fontSize=14;spacingTop=10;fontColor=#333333;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Output&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="800" x="100" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Out1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Structured study notes&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="140" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Out2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Dynamic 20-question&lt;br&gt;quiz sessions&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="400" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Out3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;fontFamily=Times New Roman;fontColor=#666666;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Scorecards, explanations,&lt;br&gt;&amp;amp; performance metrics&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="660" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Arrow1" edge="1" parent="1" source="L_Input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontFamily=Times New Roman;" target="L_Processing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Arrow2" edge="1" parent="1" source="L_Processing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontFamily=Times New Roman;" target="L_Output">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

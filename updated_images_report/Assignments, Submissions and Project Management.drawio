@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZMbQAf4xrB3LHF_LtrZe">
+    <mxGraphModel dx="837" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Output" vertex="1">
+          <mxGeometry height="129" width="893" x="983.5" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-2" parent="vK2OHe3RzTaK2AuV_gUg-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Active assignment&#xa;listings" vertex="1">
+          <mxGeometry height="54" width="254" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-3" parent="vK2OHe3RzTaK2AuV_gUg-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Submission&#xa;receipts" vertex="1">
+          <mxGeometry height="54" width="210" x="347" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-4" parent="vK2OHe3RzTaK2AuV_gUg-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Collaboration&#xa;group states" vertex="1">
+          <mxGeometry height="54" width="259" x="607" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#4A90D9;strokeColor=#2c5f8a;fontColor=#fff;fontFamily=Times New Roman;fontSize=20;" value="Processing" vertex="1">
+          <mxGeometry height="177" width="950" x="955" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-6" parent="vK2OHe3RzTaK2AuV_gUg-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Reminder scheduling&#xa;(7-day &amp; 1-day)" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-7" parent="vK2OHe3RzTaK2AuV_gUg-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Submission timestamp&#xa;validation" vertex="1">
+          <mxGeometry height="78" width="260" x="353" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-8" parent="vK2OHe3RzTaK2AuV_gUg-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Project group&#xa;membership management" vertex="1">
+          <mxGeometry height="102" width="260" x="663" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Input" vertex="1">
+          <mxGeometry height="153" width="920" x="970" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-10" parent="vK2OHe3RzTaK2AuV_gUg-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Assignment prompts&#xa;&amp; due dates" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-11" parent="vK2OHe3RzTaK2AuV_gUg-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Student project&#xa;proposals" vertex="1">
+          <mxGeometry height="54" width="255" x="353" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-12" parent="vK2OHe3RzTaK2AuV_gUg-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Submitted&#xa;project files" vertex="1">
+          <mxGeometry height="54" width="236" x="658" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-13" edge="1" parent="1" source="vK2OHe3RzTaK2AuV_gUg-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="vK2OHe3RzTaK2AuV_gUg-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vK2OHe3RzTaK2AuV_gUg-14" edge="1" parent="1" source="vK2OHe3RzTaK2AuV_gUg-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="vK2OHe3RzTaK2AuV_gUg-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

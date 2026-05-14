@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="5j0p6Ja09xmU1xO1kSQP">
+    <mxGraphModel dx="1488" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Output" vertex="1">
+          <mxGeometry height="153" width="640" x="727.5" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-2" parent="kgi-uXzd9A9PAUhTDm5e-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Structured JSON&#xa;study plans" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-3" parent="kgi-uXzd9A9PAUhTDm5e-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Personalised&#xa;remediation guides" vertex="1">
+          <mxGeometry height="78" width="260" x="353" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#4A90D9;strokeColor=#2c5f8a;fontColor=#fff;fontFamily=Times New Roman;fontSize=20;" value="Processing" vertex="1">
+          <mxGeometry height="127" width="884.5" x="605.25" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-5" parent="kgi-uXzd9A9PAUhTDm5e-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Orchestrate LLM&#xa;calls" vertex="1">
+          <mxGeometry height="49.77" width="216.77" x="41.61" y="50.23" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-6" parent="kgi-uXzd9A9PAUhTDm5e-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Identify weak topics&#xa;from score history" vertex="1">
+          <mxGeometry height="55.96610169491526" width="251.6083150984683" x="306.76859956236325" y="41.61581920903955" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-7" parent="kgi-uXzd9A9PAUhTDm5e-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Assemble targeted&#xa;remediation materials" vertex="1">
+          <mxGeometry height="66.19" width="251.61" x="606.76" y="33.81" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Input" vertex="1">
+          <mxGeometry height="137" width="855" x="620" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-9" parent="kgi-uXzd9A9PAUhTDm5e-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Quiz attempt&#xa;performance data" vertex="1">
+          <mxGeometry height="74.55" width="260" x="43" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-10" parent="kgi-uXzd9A9PAUhTDm5e-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Raw PDF&#xa;text" vertex="1">
+          <mxGeometry height="55.82" width="165" x="353" y="54.18" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-11" parent="kgi-uXzd9A9PAUhTDm5e-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Topic prompts&#xa;from modules" vertex="1">
+          <mxGeometry height="70" width="260" x="568" y="44.55" as="geometry" />
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-12" edge="1" parent="1" source="kgi-uXzd9A9PAUhTDm5e-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="kgi-uXzd9A9PAUhTDm5e-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgi-uXzd9A9PAUhTDm5e-13" edge="1" parent="1" source="kgi-uXzd9A9PAUhTDm5e-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="kgi-uXzd9A9PAUhTDm5e-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

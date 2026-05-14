@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="I-y3Afe_HFX5IWuldaJ_">
+    <mxGraphModel dx="-910" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Output" vertex="1">
+          <mxGeometry height="129" width="849" x="2602" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-2" parent="AmnLE7Iw6blmQ0zJVg1P-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Success / Failure&#xa;response" vertex="1">
+          <mxGeometry height="54" width="259" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-3" parent="AmnLE7Iw6blmQ0zJVg1P-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="JWT Bearer&#xa;token" vertex="1">
+          <mxGeometry height="54" width="197" x="352" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-4" parent="AmnLE7Iw6blmQ0zJVg1P-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Updated streak&#xa;value" vertex="1">
+          <mxGeometry height="54" width="223" x="599" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#4A90D9;strokeColor=#2c5f8a;fontColor=#fff;fontFamily=Times New Roman;fontSize=18;" value="Processing" vertex="1">
+          <mxGeometry height="110" width="885" x="2584" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-6" parent="AmnLE7Iw6blmQ0zJVg1P-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="bcrypt&#xa;password hashing" vertex="1">
+          <mxGeometry height="46.04651162790697" width="245" x="43" y="39.224806201550386" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-7" parent="AmnLE7Iw6blmQ0zJVg1P-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="JWT token&#xa;verification" vertex="1">
+          <mxGeometry height="46.04651162790697" width="232" x="338" y="39.224806201550386" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-8" parent="AmnLE7Iw6blmQ0zJVg1P-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Daily streak&#xa;calculation" vertex="1">
+          <mxGeometry height="46.04651162790697" width="238" x="620" y="39.224806201550386" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Input" vertex="1">
+          <mxGeometry height="107" width="913" x="2570" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-10" parent="AmnLE7Iw6blmQ0zJVg1P-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Sign-up credentials&#xa;(username / password)" vertex="1">
+          <mxGeometry height="47.3411811023622" width="260" x="43" y="42.125984251968504" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-11" parent="AmnLE7Iw6blmQ0zJVg1P-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Login&#xa;(email / password)" vertex="1">
+          <mxGeometry height="50.35740157480315" width="248" x="353" y="42.319763779527555" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-12" parent="AmnLE7Iw6blmQ0zJVg1P-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=18;" value="Password reset&#xa;request" vertex="1">
+          <mxGeometry height="50.35740157480315" width="235" x="651" y="42.319763779527555" as="geometry" />
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-13" edge="1" parent="1" source="AmnLE7Iw6blmQ0zJVg1P-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" target="AmnLE7Iw6blmQ0zJVg1P-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmnLE7Iw6blmQ0zJVg1P-14" edge="1" parent="1" source="AmnLE7Iw6blmQ0zJVg1P-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=18;" target="AmnLE7Iw6blmQ0zJVg1P-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Twx8N8q-fkYO7PUSDpZf">
+    <mxGraphModel dx="941" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IKghWdiqP_T20KFXgkwE-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Output" vertex="1">
+          <mxGeometry height="100" width="884" x="1227" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-2" parent="IKghWdiqP_T20KFXgkwE-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Live chat&#xa;threads" vertex="1">
+          <mxGeometry height="52.09" width="194" x="43" y="28.959999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-3" parent="IKghWdiqP_T20KFXgkwE-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Unread message&#xa;indicators" vertex="1">
+          <mxGeometry height="50.98039215686275" width="260" x="287" y="30.065359477124183" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-4" parent="IKghWdiqP_T20KFXgkwE-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Participant presence&#xa;indicators" vertex="1">
+          <mxGeometry height="50.98039215686275" width="260" x="597" y="30.065359477124183" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#4A90D9;strokeColor=#2c5f8a;fontColor=#fff;fontFamily=Times New Roman;fontSize=20;" value="Processing" vertex="1">
+          <mxGeometry height="120" width="950" x="1194" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-6" parent="IKghWdiqP_T20KFXgkwE-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Route messages to&#xa;chat rooms" vertex="1">
+          <mxGeometry height="52.88135593220339" width="260" x="43" y="39.32203389830509" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-7" parent="IKghWdiqP_T20KFXgkwE-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Update read-status&#xa;timestamps" vertex="1">
+          <mxGeometry height="52.88135593220339" width="260" x="353" y="39.32203389830509" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-8" parent="IKghWdiqP_T20KFXgkwE-5" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Maintain sequential&#xa;conversation order" vertex="1">
+          <mxGeometry height="51.64285714285714" width="260" x="663" y="37.714285714285715" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Input" vertex="1">
+          <mxGeometry height="113" width="856" x="1241" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-10" parent="IKghWdiqP_T20KFXgkwE-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Live text&#xa;messages" vertex="1">
+          <mxGeometry height="57.16" width="205" x="43" y="42.84" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-11" parent="IKghWdiqP_T20KFXgkwE-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Participant&#xa;identities" vertex="1">
+          <mxGeometry height="57.16" width="221" x="298" y="42.84" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-12" parent="IKghWdiqP_T20KFXgkwE-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Conversation context&#xa;(class / project)" vertex="1">
+          <mxGeometry height="60" width="260" x="569" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-13" edge="1" parent="1" source="IKghWdiqP_T20KFXgkwE-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=Times New Roman;fontSize=20;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="IKghWdiqP_T20KFXgkwE-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKghWdiqP_T20KFXgkwE-14" edge="1" parent="1" source="IKghWdiqP_T20KFXgkwE-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontFamily=Times New Roman;fontSize=20;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="IKghWdiqP_T20KFXgkwE-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

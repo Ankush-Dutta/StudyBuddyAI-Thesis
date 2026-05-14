@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="w2DwQdLV8zA1WbdtMdlO">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Output" vertex="1">
+          <mxGeometry height="129" width="591" x="503" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-2" parent="APeu0apzZF3VCMqn5Q-X-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Live announcement&#xa;feeds" vertex="1">
+          <mxGeometry height="54" width="253" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-3" parent="APeu0apzZF3VCMqn5Q-X-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Read-receipt&#xa;reports" vertex="1">
+          <mxGeometry height="54" width="218" x="346" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#4A90D9;strokeColor=#2c5f8a;fontColor=#fff;fontFamily=Times New Roman;fontSize=20;" value="Processing" vertex="1">
+          <mxGeometry height="153" width="877" x="360" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-5" parent="APeu0apzZF3VCMqn5Q-X-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Store multimedia&#xa;links" vertex="1">
+          <mxGeometry height="54" width="231" x="43" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-6" parent="APeu0apzZF3VCMqn5Q-X-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Dispatch student&#xa;notifications" vertex="1">
+          <mxGeometry height="78" width="260" x="324" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-7" parent="APeu0apzZF3VCMqn5Q-X-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Record reader&#xa;count" vertex="1">
+          <mxGeometry height="54" width="216" x="634" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Input" vertex="1">
+          <mxGeometry height="129" width="816" x="390.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-9" parent="APeu0apzZF3VCMqn5Q-X-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Content bodies" vertex="1">
+          <mxGeometry height="54" width="168" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-10" parent="APeu0apzZF3VCMqn5Q-X-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Classroom&#xa;identifiers" vertex="1">
+          <mxGeometry height="54" width="221" x="261" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-11" parent="APeu0apzZF3VCMqn5Q-X-8" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Times New Roman;fontSize=20;" value="Optional PDF&#xa;attachments" vertex="1">
+          <mxGeometry height="54" width="257" x="532" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-12" edge="1" parent="1" source="APeu0apzZF3VCMqn5Q-X-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=20;" target="APeu0apzZF3VCMqn5Q-X-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APeu0apzZF3VCMqn5Q-X-13" edge="1" parent="1" source="APeu0apzZF3VCMqn5Q-X-4" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=20;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="APeu0apzZF3VCMqn5Q-X-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="820" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
